@@ -30,6 +30,7 @@ header {
     background-color: var(--cor0); 
     height: 150px;     
     padding-top: 0px;
+   
     
     }
 
@@ -40,18 +41,19 @@ header h1 {
     
     padding-right: 12px;
     text-align: right;
-    
 }
 
 header img {
-         margin: 0px;
+        margin: 0px;
+        padding: 0px;      
+
+
+
 }
 
 nav {
-    margin-top: 0px;
     background-color: black;
-    padding-bottom: 5px;
-    padding-top: 4px;
+    
 }
 
 nav a {
