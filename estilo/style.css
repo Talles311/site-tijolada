@@ -1,26 +1,10 @@
 @charset "UTF-8";
 
-/* corres para o site 
-#020301 
-#2F1A09
-#593702
-#882204
-#67570B
-
-sombras 
-#E68F05
-#A66703
-#593802
-#664002
-#402801  */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 :root {
-        /* cores */
-      
+        
         --cor0: #020301;
         --cor1: #2F1A09;
         --cor2: #593702;
@@ -29,9 +13,8 @@ sombras
     
         /* fontes */
         
-        --fonte-padrao: Verdana, Arial, Helvetica, sans-serif;
+        --fonte-padrao: Verdana, Arial, Helvetica, sans-serif;       
 }
-
 
 * {
     margin: 0px;
@@ -44,66 +27,71 @@ sombras
 }
 
 header {
-     height: 130px;
-     background-color: var(--cor0);    
-     position: relative; 
-     padding-top: 15px;
+    background-color: var(--cor0); 
+    height: 150px;     
+    padding-top: 0px;
     
     }
 
 header h1 {
-    
+    font-family: var(--fonte-padrao);
     font-size: 1em;
     color: white;
-    padding: 6px;
+    
     padding-right: 12px;
+    text-align: right;
+    
 }
 
+header img {
+         margin: 0px;
+}
 
 nav {
     margin-top: 0px;
+    background-color: black;
+    padding-bottom: 5px;
+    padding-top: 4px;
 }
 
-
 nav a {
-    color: var(--cor2);
-    padding: 0px 5px 0px 5px;
-    font-size: 1.0em;
+    color: lightgray;
+    padding-right: 5px;
+    font-size: 1em;
     text-decoration: none;
-    border-radius: 8px;
-    margin: 3px;
     font-weight: normal;
-    font-style: normal;
+    
     
 }
 
 nav a:hover {
     background-color: #020301;  
-    color: #a38b14;
+    color: #7c723f;
+    padding: 3px;
 }
-
 
 main {
     background-color: white;
     height: 800px;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1100px;
     box-shadow: 0px 0px 2px 0px black;
     margin: auto;
     margin-top: 10px;
-    
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 footer {
     background-color: black;  
-   text-align: center;
-   padding: 8px;
-   font-size: 0.9em;
-   margin: 0px;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9em;
+    margin: 0px;
 }
 
 footer p {
-     color: white;
-     font-size: 1em;
+    color: white;
+    font-size: 1em;
 }
 
