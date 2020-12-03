@@ -44,7 +44,8 @@ header h1 {
 }
 
 header img {
-       width: 100%;
+       
+       margin: auto;
 }
 
 nav {
@@ -57,8 +58,7 @@ nav a {
     font-size: 1em;
     text-decoration: none;
     font-weight: normal;
-    padding: 0px;
-    margin: 0px;
+    
 }
 
 nav a:hover {
@@ -70,12 +70,12 @@ nav a:hover {
 
 main {
     background-color: white;
-    height: 98vh;
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
     box-shadow: 0px 0px 2px 0px black;
-    margin: 0px;
-    margin-top: 10px;
+    margin: auto;
+    height: 100vh;
+    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
