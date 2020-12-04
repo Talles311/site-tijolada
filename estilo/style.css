@@ -31,6 +31,7 @@ header {
       background-image: url("../imagens/background.png"); 
       background-position: left top;
       height: 150px;
+      background-size: cover;
 }
 
 nav {
