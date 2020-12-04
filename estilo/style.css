@@ -22,14 +22,15 @@
  }
 
  body {
+    height: 97vh;
     background-color: lightgray;
     font-family: var(--fonte-padrao);
 }
 
 header {
       background-image: url("../imagens/background.png"); 
+      background-position: left top;
       height: 150px;
-      
 }
 
 nav {
@@ -42,7 +43,6 @@ nav a {
     font-size: 1em;
     text-decoration: none;
     font-weight: normal;
-    
 }
 
 nav a:hover {
@@ -75,4 +75,3 @@ footer p {
     color: white;
     font-size: 1em;
 }
-
