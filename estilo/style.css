@@ -21,35 +21,34 @@
     padding: 0px; 
  }
 
- body {
-    height: 97vh;
-    background-color: lightgray;
+ html, body {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.493);
     font-family: var(--fonte-padrao);
 }
 
 header {
-      background-image: url("../imagens/background.png"); 
-      background-position: left top;
-      height: 150px;
-      background-size: cover;
+      background-image: url("../imagens/TijoladaFilmes.jpg"); 
+      height: 170px;
+      background-attachment: fixed;
+      background-position: left bottom;
 }
 
 nav {
     background-color: black;
-    padding-bottom: 3px;
+    padding-left: 20px;
 }
 
 nav a {
-    color: lightgray;
+    color: white;
     font-size: 1em;
     text-decoration: none;
     font-weight: normal;
+    padding-left: 30px;
 }
 
 nav a:hover {
-    color: #7c723f;
-    padding: 0px;
-    margin: 0px;
+    color: #917c12;
 }
 
 main {
@@ -60,7 +59,35 @@ main {
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 5px; 
+}
+
+main article {
+    display: inline-block;        
+    margin-top: 30px;
+   
+}
+
+main ul {
+    display: inline-block;
+    list-style-position: inside; 
+    padding-left: 10px;
+    line-height: 1.5em;
+    margin: 0px;
+    color: var(--cor0);
+    text-decoration: none;
+    text-indent: none;
+}
+
+main a {
+    color: var(--cor0);
+    text-decoration: none;
+    
+}
+
+main a:hover {
+        color: rgba(11, 1, 99, 0.945);
+        font-weight: bold;
 }
 
 footer {
