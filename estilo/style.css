@@ -68,12 +68,14 @@ main {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px; 
+
+
 }
 
 main article {
     display: inline-block;        
-    margin-top: 30px;
-   
+    margin-top: 30px; 
+  
 }
 
 main ul {
@@ -85,6 +87,7 @@ main ul {
     color: var(--cor0);
     text-decoration: none;
     text-indent: none;
+   
 }
 
 main a {
