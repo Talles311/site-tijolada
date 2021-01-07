@@ -23,7 +23,7 @@
 
  html, body {
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(51, 21, 21, 0.781);
     font-family: var(--fonte-padrao);
 }
 
